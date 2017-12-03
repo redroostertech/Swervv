@@ -1,0 +1,65 @@
+PODS:
+  - BarcodeScanner (3.0.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - BTNavigationDropdownMenu (0.4.1)
+  - CardIO (5.4.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - FBSDKCoreKit (4.27.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.26.0):
+    - FBSDKCoreKit
+  - FoldingCell (3.0.0)
+  - ILLoginKit (0.1.3):
+    - FBSDKLoginKit (= 4.26.0)
+    - Validator (~> 2.1.1)
+  - Validator (2.1.1)
+
+DEPENDENCIES:
+  - BarcodeScanner
+  - BTNavigationDropdownMenu (from `https://github.com/zkrige/BTNavigationDropdownMenu.git`)
+  - CardIO
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Charts
+  - FoldingCell
+  - ILLoginKit
+
+EXTERNAL SOURCES:
+  BTNavigationDropdownMenu:
+    :git: https://github.com/zkrige/BTNavigationDropdownMenu.git
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  BTNavigationDropdownMenu:
+    :commit: 0e1bd3a84079f1bdec8bffc4db0f383bd9ee7523
+    :git: https://github.com/zkrige/BTNavigationDropdownMenu.git
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  BarcodeScanner: 4ba61e8b2d50da7b17685085d4bb8e1a0c14613e
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  BTNavigationDropdownMenu: 4a88996ad514f2feff98481eb2d6a5cb7520f76c
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
+  FBSDKLoginKit: f3f03b94c21eb834af243c0a881d48641f47ca60
+  FoldingCell: 55e9fcac546acc2c8f110f210af892aa90032160
+  ILLoginKit: 8adbc63cf1994c918b1a8e2a76676a847ac99404
+  Validator: b1793fbfd0046097551d0edd18e2c30792d69ef5
+
+PODFILE CHECKSUM: 2a99f8cdacbb01f77374d12d011ad13eb841375b
+
+COCOAPODS: 1.3.1
